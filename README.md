@@ -1,38 +1,73 @@
-# MAGmate App – Support
+# Universal Remote for MAG
 
-Thanks for using MAGmate!
+**A fast, reliable third-party remote control for MAG series set-top boxes.**
 
-## 🔧 Support
-If you're experiencing any issues, have feedback, or feature requests, feel free to reach out.
+Control channels, volume, playback, and navigation directly from your iPhone, iPad, or Apple Watch. Built natively for iOS, Universal Remote for MAG communicates seamlessly over your local Wi-Fi network to replace or supplement your physical remote.
 
-- Email: shubham.shahh23@gmail.com
-- GitHub Issues: [https://github.com/shubhamshah02/MAGmate/issues](https://github.com/shubhamshah02/MAGmate/issues)
-
-## 📱 About the App
-MAGmate is a third-party remote control for MAG series set-top boxes. Control channels, volume, playback, and navigation from your iPhone, iPad, or Apple Watch over your local Wi-Fi network. MAGmate also includes Home Screen widgets, Lock Screen widgets, and Siri Shortcuts.
-
-**Compatible models:** MAG245, MAG245D, MAG250, MAG254, MAG255, MAG260, MAG270, MAG275, MAG324, MAG420, MAG520, MAG540
-
-## FAQ
-
-**Q: MAGmate can't find my set-top box. What should I do?**  
-A: Make sure your MAG box and iPhone are on the same Wi-Fi network. Check that both devices are not split across 2.4 GHz and 5 GHz bands if your router keeps them separate. Also confirm that remote control is enabled on your box under **Settings → System settings → Remote control**.
-
-**Q: Pairing failed or the remote doesn't respond. What should I do?**  
-A: Verify remote control is enabled on the MAG box, restart the box and the app, and try pairing again from the Devices tab. For best compatibility, update your MAG box to the latest official Infomir firmware.
-
-**Q: Do I need an account to use MAGmate?**  
-A: No. MAGmate does not require sign-in. You add your MAG devices locally and pair directly over your home network.
-
-**Q: How do I report a bug?**  
-A: Use **Settings → Send Feedback** in the app to compose an email with debug info, or open a GitHub issue. Please include your MAG model, iOS version, and steps to reproduce the problem.
-
-**Q: Is MAGmate affiliated with Infomir?**  
-A: No. MAGmate is an independent third-party app and is not affiliated with, endorsed by, or sponsored by Infomir or Telecommunication Technologies.
-
-## Legal
-- [Privacy Policy](https://shubhamshah02.github.io/MAGmate/privacy.html)
-- [Terms of Use](https://shubhamshah02.github.io/MAGmate/terms.html)
+<p align="center">
+  <img src="docs/images/app-hero.png" alt="Main remote control interface featuring a directional pad, media controls, and colored function buttons" width="400" />
+</p>
 
 ---
-We'll respond within 48 hours. Thanks for supporting MAGmate!
+
+## Features
+
+### Seamless Local Control
+Connect to your hardware instantly without creating an account or signing into any cloud services.
+* Pair directly to your MAG box over your home Wi-Fi network.
+* Monitor your connection stability with real-time network ping indicators built into the device manager.
+
+<p align="center">
+  <img src="docs/images/device-manager.png" alt="Device manager screen showing a connected MAG box and network latency" width="400" />
+</p>
+
+### Live Keyboard Input
+Typing on a TV with a directional pad is frustrating. 
+* Use the native iOS keyboard to send text strings directly to your set-top box search fields and input forms.
+
+<p align="center">
+  <img src="docs/images/live-keyboard.png" alt="Live Keyboard interface showing the iOS keyboard ready to send text to the TV" width="400" />
+</p>
+
+### Apple Watch Integration
+Take control of your television without reaching for your phone.
+* Access dedicated media controls, directional navigation, and a full number pad directly from your wrist.
+* Switch between multiple saved MAG boxes seamlessly via the watchOS device list.
+
+<p align="center">
+  <img src="docs/images/watch-remote.png" alt="Apple Watch interface displaying media playback controls and navigation options" width="250" />
+</p>
+
+### System Integrations
+Universal Remote for MAG hooks directly into modern iOS environments.
+* Access your remote instantly using customizable Home Screen and Lock Screen widgets.
+* Automate your living room setup using native Siri Shortcuts.
+
+---
+
+## Hardware Compatibility
+
+Universal Remote for MAG officially supports the following models:
+`MAG245` · `MAG245D` · `MAG250` · `MAG254` · `MAG255` · `MAG260` · `MAG270` · `MAG275` · `MAG324` · `MAG420` · `MAG520` · `MAG540`
+
+---
+
+## Troubleshooting & FAQ
+
+**The app cannot find my set-top box.**
+Ensure your iPhone and MAG box are connected to the exact same Wi-Fi network. If your router separates 2.4 GHz and 5 GHz bands, verify both devices are on the same band. 
+
+**My device is found, but the remote does not respond.**
+Remote access must be enabled manually on your hardware. Navigate to **Settings → System settings → Remote control** on your MAG box and toggle it on. 
+
+**General Connection Issues**
+If pairing fails, restart both the set-top box and the iOS application, then attempt to pair again via the Devices tab. For maximum stability, ensure your MAG box is updated to the latest official Infomir firmware.
+
+---
+
+## Support & Legal
+
+* **Report an Issue:** Use the **Settings → Send Feedback** button inside the app to generate a debug email, or open a ticket on our [GitHub Issues page](https://github.com/shubhamshah02/MAGmate/issues). Please include your iOS version and MAG box model. Expect a response within 48 hours.
+* **Privacy & Terms:** Review our [Privacy Policy](https://shubhamshah02.github.io/MAGmate/privacy.html) and [Terms of Use](https://shubhamshah02.github.io/MAGmate/terms.html).
+
+*Disclaimer: Universal Remote for MAG is an independent third-party application. It is not affiliated with, endorsed by, or sponsored by Infomir or Telecommunication Technologies.*
